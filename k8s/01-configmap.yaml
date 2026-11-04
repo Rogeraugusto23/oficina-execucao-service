@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: execucao-service-config
+  namespace: oficina-execucao-service
+data:
+  ASPNETCORE_ENVIRONMENT: "Production"
